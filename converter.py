@@ -27,10 +27,11 @@ graph.add((RDF.Description, cc['license'],
 
 wn = open('wn-affect-1.1-hierarchy.txt')
 for line in wn.readlines()[2:]:
-    label, superconcept = line.strip().split()[1:3]
+    uid, label, superconcept = line.strip().split()[:3]
     graph.add((wna[label], RDF['type'], skos['Concept']))
     graph.add((wna[label], skos['prefLabel'], Literal(label, lang='en')))
     graph.add((wna[label], skos['broaderTransitive'], wna[superconcept]))
+    graph.add((wna[label], skos['notation'], Literal(uid)))
 #print graph.serialize(format='pretty-xml')
 
 out = file('out.rdf', 'w')

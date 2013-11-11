@@ -5,151 +5,14 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#togetherness">
-    <skos:prefLabel xml:lang="en">togetherness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#closeness">
-        <skos:prefLabel xml:lang="en">closeness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#belonging"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm-ardor">
-    <skos:prefLabel xml:lang="en">enthusiasm-ardor</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#eagerness">
-        <skos:prefLabel xml:lang="en">eagerness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#loyalty">
-    <skos:prefLabel xml:lang="en">loyalty</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love">
-        <skos:prefLabel xml:lang="en">love</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gladness">
-    <skos:prefLabel xml:lang="en">gladness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy">
-        <skos:prefLabel xml:lang="en">joy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dysphoria">
-    <skos:prefLabel xml:lang="en">dysphoria</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression">
-        <skos:prefLabel xml:lang="en">depression</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#contempt">
-    <skos:prefLabel xml:lang="en">contempt</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unfriendliness">
+    <skos:notation>72</skos:notation>
+    <skos:prefLabel xml:lang="en">unfriendliness</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike">
         <skos:prefLabel xml:lang="en">dislike</skos:prefLabel>
+        <skos:notation>258</skos:notation>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-esteem">
-    <skos:prefLabel xml:lang="en">self-esteem</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride">
-        <skos:prefLabel xml:lang="en">self-pride</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tenderness">
-    <skos:prefLabel xml:lang="en">tenderness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion">
-        <skos:prefLabel xml:lang="en">compassion</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unassertiveness">
-    <skos:prefLabel xml:lang="en">unassertiveness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#diffidence">
-        <skos:prefLabel xml:lang="en">diffidence</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#timidity"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#titillation">
-    <skos:prefLabel xml:lang="en">titillation</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exhilaration">
-        <skos:prefLabel xml:lang="en">exhilaration</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#carefreeness">
-    <skos:prefLabel xml:lang="en">carefreeness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerfulness">
-        <skos:prefLabel xml:lang="en">cheerfulness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#distress">
-    <skos:prefLabel xml:lang="en">distress</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety">
-        <skos:prefLabel xml:lang="en">anxiety</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-depreciation">
-    <skos:prefLabel xml:lang="en">self-depreciation</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#humility">
-        <skos:prefLabel xml:lang="en">humility</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#identification">
-    <skos:prefLabel xml:lang="en">identification</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#empathy">
-        <skos:prefLabel xml:lang="en">empathy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#meekness">
-    <skos:prefLabel xml:lang="en">meekness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#humility"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#confusion">
-    <skos:prefLabel xml:lang="en">confusion</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment">
-        <skos:prefLabel xml:lang="en">embarrassment</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shame"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#withdrawal">
-    <skos:prefLabel xml:lang="en">withdrawal</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indifference">
-        <skos:prefLabel xml:lang="en">indifference</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-unconcern"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
@@ -157,80 +20,278 @@
     <skos:prefLabel xml:lang="en">repentance</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compunction">
-        <skos:prefLabel xml:lang="en">compunction</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#regret-sorrow"/>
+        <skos:prefLabel xml:lang="en">compunction</skos:prefLabel>
+        <skos:notation>3</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>16</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#NIL">
+    <skos:prefLabel xml:lang="en">NIL</skos:prefLabel>
+    <skos:notation>273</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#NIL"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compatibility">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy">
+        <skos:notation>268</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+        <skos:prefLabel xml:lang="en">sympathy</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>270</skos:notation>
+    <skos:prefLabel xml:lang="en">compatibility</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jollity">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+        <skos:notation>127</skos:notation>
+        <skos:prefLabel xml:lang="en">merriment</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>54</skos:notation>
+    <skos:prefLabel xml:lang="en">jollity</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joylessness">
+    <skos:prefLabel xml:lang="en">joylessness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerlessness">
+        <skos:prefLabel xml:lang="en">cheerlessness</skos:prefLabel>
+        <skos:notation>27</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>260</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sensation">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+    <skos:prefLabel xml:lang="en">sensation</skos:prefLabel>
+    <skos:notation>118</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#confusion">
+    <skos:prefLabel xml:lang="en">confusion</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shame"/>
+        <skos:notation>152</skos:notation>
+        <skos:prefLabel xml:lang="en">embarrassment</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>175</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dudgeon">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indignation">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+        <skos:notation>140</skos:notation>
+        <skos:prefLabel xml:lang="en">indignation</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">dudgeon</skos:prefLabel>
+    <skos:notation>158</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#class-feeling">
+    <skos:notation>229</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+        <skos:prefLabel xml:lang="en">hostility</skos:prefLabel>
+        <skos:notation>161</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">class-feeling</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#murderousness">
+    <skos:notation>224</skos:notation>
+    <skos:prefLabel xml:lang="en">murderousness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate">
+        <skos:prefLabel xml:lang="en">hate</skos:prefLabel>
+        <skos:notation>178</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amour-propre">
-    <skos:prefLabel xml:lang="en">amour-propre</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#trait">
+    <skos:prefLabel xml:lang="en">trait</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+    <skos:notation>105</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ingratitude">
-    <skos:prefLabel xml:lang="en">ingratitude</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#isolation">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion">
-        <skos:prefLabel xml:lang="en">negative-emotion</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#alienation">
+        <skos:prefLabel xml:lang="en">alienation</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+        <skos:notation>236</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">isolation</skos:prefLabel>
+    <skos:notation>296</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hysteria">
-    <skos:prefLabel xml:lang="en">hysteria</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amusement">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear">
-        <skos:prefLabel xml:lang="en">negative-fear</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#guilt">
-    <skos:prefLabel xml:lang="en">guilt</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compunction"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#encouragement">
-    <skos:prefLabel xml:lang="en">encouragement</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope">
-        <skos:prefLabel xml:lang="en">positive-hope</skos:prefLabel>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy">
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>263</skos:notation>
+        <skos:prefLabel xml:lang="en">joy</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">amusement</skos:prefLabel>
+    <skos:notation>252</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hilarity">
+    <skos:notation>8</skos:notation>
+    <skos:prefLabel xml:lang="en">hilarity</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#aggravation">
+    <skos:prefLabel xml:lang="en">aggravation</skos:prefLabel>
+    <skos:notation>21</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+        <skos:notation>305</skos:notation>
+        <skos:prefLabel xml:lang="en">annoyance</skos:prefLabel>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#beneficence">
-    <skos:prefLabel xml:lang="en">beneficence</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jealousy">
+    <skos:prefLabel xml:lang="en">jealousy</skos:prefLabel>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#benevolence">
-        <skos:prefLabel xml:lang="en">benevolence</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#envy">
+        <skos:prefLabel xml:lang="en">envy</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
+        <skos:notation>45</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>149</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misocainea">
+    <skos:notation>113</skos:notation>
+    <skos:prefLabel xml:lang="en">misocainea</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misoneism">
+        <skos:notation>35</skos:notation>
+        <skos:prefLabel xml:lang="en">misoneism</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-hope">
-    <skos:prefLabel xml:lang="en">ambiguous-hope</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misopedia">
+    <skos:prefLabel xml:lang="en">misopedia</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+    <skos:notation>173</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#reverence">
+    <skos:prefLabel xml:lang="en">reverence</skos:prefLabel>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-expectation">
-        <skos:prefLabel xml:lang="en">ambiguous-expectation</skos:prefLabel>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-fear">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+        <skos:prefLabel xml:lang="en">ambiguous-fear</skos:prefLabel>
+        <skos:notation>29</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>304</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#displeasure">
+    <skos:prefLabel xml:lang="en">displeasure</skos:prefLabel>
+    <skos:notation>292</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mood">
+    <skos:prefLabel xml:lang="en">mood</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affective-state">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mental-state"/>
+        <skos:prefLabel xml:lang="en">affective-state</skos:prefLabel>
+        <skos:notation>226</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>68</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#kindheartedness">
+    <skos:notation>245</skos:notation>
+    <skos:prefLabel xml:lang="en">kindheartedness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#blue-devils">
+    <skos:notation>303</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despondency">
+        <skos:notation>101</skos:notation>
+        <skos:prefLabel xml:lang="en">despondency</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">blue-devils</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unrest">
+    <skos:prefLabel xml:lang="en">unrest</skos:prefLabel>
+    <skos:notation>172</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-agitation">
+        <skos:prefLabel xml:lang="en">ambiguous-agitation</skos:prefLabel>
+        <skos:notation>259</skos:notation>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#daze">
-    <skos:prefLabel xml:lang="en">daze</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sensation">
-    <skos:prefLabel xml:lang="en">sensation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#euphoria">
-    <skos:prefLabel xml:lang="en">euphoria</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#frisson">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#elation">
-        <skos:prefLabel xml:lang="en">elation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-fear">
+        <skos:notation>6</skos:notation>
+        <skos:prefLabel xml:lang="en">positive-fear</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:notation>168</skos:notation>
+    <skos:prefLabel xml:lang="en">frisson</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pity">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow"/>
+        <skos:prefLabel xml:lang="en">lost-sorrow</skos:prefLabel>
+        <skos:notation>120</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">self-pity</skos:prefLabel>
+    <skos:notation>22</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#buck-fever">
+    <skos:prefLabel xml:lang="en">buck-fever</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fever">
+        <skos:notation>65</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-expectation"/>
+        <skos:prefLabel xml:lang="en">fever</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>133</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#infuriation">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger">
+        <skos:prefLabel xml:lang="en">anger</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike"/>
+        <skos:notation>61</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">infuriation</skos:prefLabel>
+    <skos:notation>285</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#scare">
+    <skos:prefLabel xml:lang="en">scare</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear">
+        <skos:prefLabel xml:lang="en">negative-fear</skos:prefLabel>
+        <skos:notation>203</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>132</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fondness">
     <skos:prefLabel xml:lang="en">fondness</skos:prefLabel>
@@ -238,42 +299,164 @@
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking">
         <skos:prefLabel xml:lang="en">liking</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>94</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>174</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gloom">
+    <skos:prefLabel xml:lang="en">gloom</skos:prefLabel>
+    <skos:notation>177</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+        <skos:notation>202</skos:notation>
+        <skos:prefLabel xml:lang="en">melancholy</skos:prefLabel>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misogyny">
-    <skos:prefLabel xml:lang="en">misogyny</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#forgiveness">
+    <skos:prefLabel xml:lang="en">forgiveness</skos:prefLabel>
+    <skos:notation>78</skos:notation>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate">
-        <skos:prefLabel xml:lang="en">hate</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mercifulness">
+        <skos:notation>4</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion"/>
+        <skos:prefLabel xml:lang="en">mercifulness</skos:prefLabel>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-languor">
-    <skos:prefLabel xml:lang="en">neutral-languor</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#buoyancy">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apathy">
-        <skos:prefLabel xml:lang="en">apathy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-emotion"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerfulness">
+        <skos:prefLabel xml:lang="en">cheerfulness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+        <skos:notation>179</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#softheartedness">
-    <skos:prefLabel xml:lang="en">softheartedness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-concern">
-        <skos:prefLabel xml:lang="en">positive-concern</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+    <skos:notation>17</skos:notation>
+    <skos:prefLabel xml:lang="en">buoyancy</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amicability">
     <skos:prefLabel xml:lang="en">amicability</skos:prefLabel>
+    <skos:notation>180</skos:notation>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#friendliness">
-        <skos:prefLabel xml:lang="en">friendliness</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+        <skos:notation>277</skos:notation>
+        <skos:prefLabel xml:lang="en">friendliness</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stage-fright">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>92</skos:notation>
+    <skos:prefLabel xml:lang="en">stage-fright</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#huffiness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+    <skos:notation>117</skos:notation>
+    <skos:prefLabel xml:lang="en">huffiness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gusto">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm">
+        <skos:prefLabel xml:lang="en">enthusiasm</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>102</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>280</skos:notation>
+    <skos:prefLabel xml:lang="en">gusto</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#weakness">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#preference">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+        <skos:prefLabel xml:lang="en">preference</skos:prefLabel>
+        <skos:notation>256</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">weakness</skos:prefLabel>
+    <skos:notation>215</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love-ardor">
+    <skos:notation>49</skos:notation>
+    <skos:prefLabel xml:lang="en">love-ardor</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love">
+        <skos:notation>193</skos:notation>
+        <skos:prefLabel xml:lang="en">love</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tumult">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-agitation">
+        <skos:prefLabel xml:lang="en">negative-agitation</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+        <skos:notation>276</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">tumult</skos:prefLabel>
+    <skos:notation>254</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#physical-state">
+    <skos:prefLabel xml:lang="en">physical-state</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+    <skos:notation>209</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bang">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exhilaration">
+        <skos:notation>56</skos:notation>
+        <skos:prefLabel xml:lang="en">exhilaration</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">bang</skos:prefLabel>
+    <skos:notation>204</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#favor">
+    <skos:prefLabel xml:lang="en">favor</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#approval">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+        <skos:notation>278</skos:notation>
+        <skos:prefLabel xml:lang="en">approval</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>23</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#aggression">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
+    <skos:notation>208</skos:notation>
+    <skos:prefLabel xml:lang="en">aggression</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misogamy">
+    <skos:prefLabel xml:lang="en">misogamy</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+    <skos:notation>11</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-consciousness">
+    <skos:notation>191</skos:notation>
+    <skos:prefLabel xml:lang="en">self-consciousness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gladness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+    <skos:notation>100</skos:notation>
+    <skos:prefLabel xml:lang="en">gladness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shadow">
+    <skos:prefLabel xml:lang="en">shadow</skos:prefLabel>
+    <skos:notation>221</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#foreboding">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
+        <skos:prefLabel xml:lang="en">foreboding</skos:prefLabel>
+        <skos:notation>66</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
@@ -281,538 +464,274 @@
     <skos:prefLabel xml:lang="en">soft-spot</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection">
-        <skos:prefLabel xml:lang="en">affection</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>50</skos:notation>
+        <skos:prefLabel xml:lang="en">affection</skos:prefLabel>
       </skos:Concept>
     </skos:broaderTransitive>
-  </skos:Concept>
-  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Description">
-    <dct:isFormatOf rdf:resource="http://wndomains.fbk.eu/wnaffect.html"/>
-    <dct:title>WordNet-Affect taxonomy represented in SKOS.</dct:title>
-    <dct:publisher>
-      <dct:Agent rdf:about="http://gsi.dit.upm.es"/>
-    </dct:publisher>
-    <dct:creator>Carlo Strapparava</dct:creator>
-    <dct:creator>Alessandro Valitutti</dct:creator>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
-  </rdf:Description>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disapproval">
-    <skos:prefLabel xml:lang="en">disapproval</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#buoyancy">
-    <skos:prefLabel xml:lang="en">buoyancy</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerfulness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#puppy-love">
-    <skos:prefLabel xml:lang="en">puppy-love</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fear-intimidation">
-    <skos:prefLabel xml:lang="en">fear-intimidation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#kindheartedness">
-    <skos:prefLabel xml:lang="en">kindheartedness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy">
-        <skos:prefLabel xml:lang="en">sympathy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#huffiness">
-    <skos:prefLabel xml:lang="en">huffiness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger">
-        <skos:prefLabel xml:lang="en">anger</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sanguinity">
-    <skos:prefLabel xml:lang="en">sanguinity</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#optimism">
-        <skos:prefLabel xml:lang="en">optimism</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#comfortableness">
-    <skos:prefLabel xml:lang="en">comfortableness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#belonging">
-        <skos:prefLabel xml:lang="en">belonging</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#insecurity">
-    <skos:prefLabel xml:lang="en">insecurity</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#discomfiture">
-    <skos:prefLabel xml:lang="en">discomfiture</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unrest">
-    <skos:prefLabel xml:lang="en">unrest</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-agitation">
-        <skos:prefLabel xml:lang="en">ambiguous-agitation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unfriendliness">
-    <skos:prefLabel xml:lang="en">unfriendliness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dudgeon">
-    <skos:prefLabel xml:lang="en">dudgeon</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indignation">
-        <skos:prefLabel xml:lang="en">indignation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gloat">
-    <skos:prefLabel xml:lang="en">gloat</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction">
-        <skos:prefLabel xml:lang="en">satisfaction</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#contentment"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#repugnance">
-    <skos:prefLabel xml:lang="en">repugnance</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disgust">
-        <skos:prefLabel xml:lang="en">disgust</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#worship">
-    <skos:prefLabel xml:lang="en">worship</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#solicitude">
-    <skos:prefLabel xml:lang="en">solicitude</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sinking">
-    <skos:prefLabel xml:lang="en">sinking</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#blue-devils">
-    <skos:prefLabel xml:lang="en">blue-devils</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despondency">
-        <skos:prefLabel xml:lang="en">despondency</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misocainea">
-    <skos:prefLabel xml:lang="en">misocainea</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misoneism">
-        <skos:prefLabel xml:lang="en">misoneism</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+    <skos:notation>257</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#presage">
     <skos:prefLabel xml:lang="en">presage</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#foreboding">
-        <skos:prefLabel xml:lang="en">foreboding</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compatibility">
-    <skos:prefLabel xml:lang="en">compatibility</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#trait">
-    <skos:prefLabel xml:lang="en">trait</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#triumph">
-    <skos:prefLabel xml:lang="en">triumph</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exultation">
-        <skos:prefLabel xml:lang="en">exultation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despisal">
-    <skos:prefLabel xml:lang="en">despisal</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#abashment">
-    <skos:prefLabel xml:lang="en">abashment</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#antagonism">
-    <skos:prefLabel xml:lang="en">antagonism</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility">
-        <skos:prefLabel xml:lang="en">hostility</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#abhorrence">
-    <skos:prefLabel xml:lang="en">abhorrence</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#electricity">
-    <skos:prefLabel xml:lang="en">electricity</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stir">
-        <skos:prefLabel xml:lang="en">stir</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-agitation"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#panic">
-    <skos:prefLabel xml:lang="en">panic</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mood">
-    <skos:prefLabel xml:lang="en">mood</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affective-state">
-        <skos:prefLabel xml:lang="en">affective-state</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mental-state"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pique">
-    <skos:prefLabel xml:lang="en">pique</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance">
-        <skos:prefLabel xml:lang="en">annoyance</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#frisson">
-    <skos:prefLabel xml:lang="en">frisson</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-fear">
-        <skos:prefLabel xml:lang="en">positive-fear</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disinclination">
-    <skos:prefLabel xml:lang="en">disinclination</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dolor">
-    <skos:prefLabel xml:lang="en">dolor</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#grief">
-        <skos:prefLabel xml:lang="en">grief</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction-pride">
-    <skos:prefLabel xml:lang="en">satisfaction-pride</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-languor">
-    <skos:prefLabel xml:lang="en">positive-languor</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#easiness">
-        <skos:prefLabel xml:lang="en">easiness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tranquillity"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotionlessness">
-    <skos:prefLabel xml:lang="en">emotionlessness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apathy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jollity">
-    <skos:prefLabel xml:lang="en">jollity</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment">
-        <skos:prefLabel xml:lang="en">merriment</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stupefaction">
-    <skos:prefLabel xml:lang="en">stupefaction</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#astonishment">
-        <skos:prefLabel xml:lang="en">astonishment</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#surprise"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#physical-state">
-    <skos:prefLabel xml:lang="en">physical-state</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love-ardor">
-    <skos:prefLabel xml:lang="en">love-ardor</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shadow">
-    <skos:prefLabel xml:lang="en">shadow</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#foreboding"/>
+    <skos:notation>240</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#placidity">
-    <skos:prefLabel xml:lang="en">placidity</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#plaintiveness">
+    <skos:prefLabel xml:lang="en">plaintiveness</skos:prefLabel>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness">
-        <skos:prefLabel xml:lang="en">calmness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mournfulness">
+        <skos:prefLabel xml:lang="en">mournfulness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow"/>
+        <skos:notation>64</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>2</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#regard">
+    <skos:prefLabel xml:lang="en">regard</skos:prefLabel>
+    <skos:notation>122</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-depreciation">
+    <skos:notation>34</skos:notation>
+    <skos:prefLabel xml:lang="en">self-depreciation</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#humility">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+        <skos:notation>42</skos:notation>
+        <skos:prefLabel xml:lang="en">humility</skos:prefLabel>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bonheur">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
     <skos:prefLabel xml:lang="en">bonheur</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+    <skos:notation>89</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gloom">
-    <skos:prefLabel xml:lang="en">gloom</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction-pride">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy">
-        <skos:prefLabel xml:lang="en">melancholy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction">
+        <skos:notation>299</skos:notation>
+        <skos:prefLabel xml:lang="en">satisfaction</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#contentment"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">satisfaction-pride</skos:prefLabel>
+    <skos:notation>106</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#downheartedness">
+    <skos:prefLabel xml:lang="en">downheartedness</skos:prefLabel>
+    <skos:notation>36</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness">
+        <skos:notation>33</skos:notation>
+        <skos:prefLabel xml:lang="en">sadness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stage-fright">
-    <skos:prefLabel xml:lang="en">stage-fright</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dolefulness">
+    <skos:prefLabel xml:lang="en">dolefulness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+    <skos:notation>48</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#happiness">
-    <skos:prefLabel xml:lang="en">happiness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#devotion">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+    <skos:notation>108</skos:notation>
+    <skos:prefLabel xml:lang="en">devotion</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pensiveness">
-    <skos:prefLabel xml:lang="en">pensiveness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion">
-        <skos:prefLabel xml:lang="en">ambiguous-emotion</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#guilt">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compunction"/>
+    <skos:notation>281</skos:notation>
+    <skos:prefLabel xml:lang="en">guilt</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#alarm">
-    <skos:prefLabel xml:lang="en">alarm</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#NIL">
-    <skos:prefLabel xml:lang="en">NIL</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#NIL"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#regard">
-    <skos:prefLabel xml:lang="en">regard</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#scare">
-    <skos:prefLabel xml:lang="en">scare</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pity">
-    <skos:prefLabel xml:lang="en">self-pity</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow">
-        <skos:prefLabel xml:lang="en">lost-sorrow</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#reverence">
-    <skos:prefLabel xml:lang="en">reverence</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-fear">
-        <skos:prefLabel xml:lang="en">ambiguous-fear</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jitteriness">
-    <skos:prefLabel xml:lang="en">jitteriness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#defeatism">
-    <skos:prefLabel xml:lang="en">defeatism</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resignation">
-        <skos:prefLabel xml:lang="en">resignation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#maleficence">
-    <skos:prefLabel xml:lang="en">maleficence</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence">
-        <skos:prefLabel xml:lang="en">malevolence</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#frustration">
-    <skos:prefLabel xml:lang="en">frustration</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lividity">
-    <skos:prefLabel xml:lang="en">lividity</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fury">
-        <skos:prefLabel xml:lang="en">fury</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-consciousness">
-    <skos:prefLabel xml:lang="en">self-consciousness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#nausea">
-    <skos:prefLabel xml:lang="en">nausea</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disgust"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#class-feeling">
-    <skos:prefLabel xml:lang="en">class-feeling</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#world-weariness">
-    <skos:prefLabel xml:lang="en">world-weariness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hesitance">
-    <skos:prefLabel xml:lang="en">hesitance</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#diffidence"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#captivation">
-    <skos:prefLabel xml:lang="en">captivation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#murderousness">
-    <skos:prefLabel xml:lang="en">murderousness</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misanthropy">
+    <skos:notation>90</skos:notation>
+    <skos:prefLabel xml:lang="en">misanthropy</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hilarity">
-    <skos:prefLabel xml:lang="en">hilarity</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment"/>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Description">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
+    <dct:publisher>
+      <dct:Agent rdf:about="http://gsi.dit.upm.es"/>
+    </dct:publisher>
+    <dct:title>WordNet-Affect taxonomy represented in SKOS.</dct:title>
+    <dct:creator>Carlo Strapparava</dct:creator>
+    <dct:creator>Alessandro Valitutti</dct:creator>
+    <dct:isFormatOf rdf:resource="http://wndomains.fbk.eu/wnaffect.html"/>
+  </rdf:Description>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#abashment">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
+    <skos:prefLabel xml:lang="en">abashment</skos:prefLabel>
+    <skos:notation>227</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#peace">
-    <skos:prefLabel xml:lang="en">peace</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#smugness">
+    <skos:notation>76</skos:notation>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tranquillity">
-        <skos:prefLabel xml:lang="en">tranquillity</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#complacency">
+        <skos:prefLabel xml:lang="en">complacency</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
+        <skos:notation>199</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">smugness</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jocundity">
-    <skos:prefLabel xml:lang="en">jocundity</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-suspense">
-    <skos:prefLabel xml:lang="en">positive-suspense</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anticipation">
-        <skos:prefLabel xml:lang="en">anticipation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-expectation"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#titillation">
+    <skos:prefLabel xml:lang="en">titillation</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exhilaration"/>
+    <skos:notation>192</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gratefulness">
     <skos:prefLabel xml:lang="en">gratefulness</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gratitude">
         <skos:prefLabel xml:lang="en">gratitude</skos:prefLabel>
+        <skos:notation>38</skos:notation>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:notation>73</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#covetousness">
-    <skos:prefLabel xml:lang="en">covetousness</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#contempt">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+    <skos:notation>247</skos:notation>
+    <skos:prefLabel xml:lang="en">contempt</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#softheartedness">
+    <skos:prefLabel xml:lang="en">softheartedness</skos:prefLabel>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#envy">
-        <skos:prefLabel xml:lang="en">envy</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-concern">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
+        <skos:prefLabel xml:lang="en">positive-concern</skos:prefLabel>
+        <skos:notation>59</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>222</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#daze">
+    <skos:prefLabel xml:lang="en">daze</skos:prefLabel>
+    <skos:notation>43</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion">
+        <skos:prefLabel xml:lang="en">negative-emotion</skos:prefLabel>
+        <skos:notation>112</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wrath">
-    <skos:prefLabel xml:lang="en">wrath</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fury"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#isolation">
-    <skos:prefLabel xml:lang="en">isolation</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-esteem">
+    <skos:prefLabel xml:lang="en">self-esteem</skos:prefLabel>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#alienation">
-        <skos:prefLabel xml:lang="en">alienation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:prefLabel xml:lang="en">self-pride</skos:prefLabel>
+        <skos:notation>217</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:notation>301</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cognitive-affective-state">
-    <skos:prefLabel xml:lang="en">cognitive-affective-state</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#identification">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#empathy">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sympathy"/>
+        <skos:notation>63</skos:notation>
+        <skos:prefLabel xml:lang="en">empathy</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>197</skos:notation>
+    <skos:prefLabel xml:lang="en">identification</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cognitive-state">
+    <skos:prefLabel xml:lang="en">cognitive-state</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mental-state">
         <skos:prefLabel xml:lang="en">mental-state</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+        <skos:notation>288</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:notation>232</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#irascibility">
-    <skos:prefLabel xml:lang="en">irascibility</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bad-temper">
-        <skos:prefLabel xml:lang="en">bad-temper</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#displeasure">
-    <skos:prefLabel xml:lang="en">displeasure</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#good-will">
-    <skos:prefLabel xml:lang="en">good-will</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#friendliness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#playfulness">
-    <skos:prefLabel xml:lang="en">playfulness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#levity">
-        <skos:prefLabel xml:lang="en">levity</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#chill">
-    <skos:prefLabel xml:lang="en">chill</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension">
-        <skos:prefLabel xml:lang="en">apprehension</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exuberance">
-    <skos:prefLabel xml:lang="en">exuberance</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#happiness">
+    <skos:prefLabel xml:lang="en">happiness</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+    <skos:notation>181</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hesitance">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#diffidence">
+        <skos:notation>264</skos:notation>
+        <skos:prefLabel xml:lang="en">diffidence</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#timidity"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>57</skos:notation>
+    <skos:prefLabel xml:lang="en">hesitance</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fear-intimidation">
+    <skos:prefLabel xml:lang="en">fear-intimidation</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>210</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotionlessness">
+    <skos:prefLabel xml:lang="en">emotionlessness</skos:prefLabel>
+    <skos:notation>184</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apathy">
+        <skos:notation>137</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-emotion"/>
+        <skos:prefLabel xml:lang="en">apathy</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jitteriness">
+    <skos:prefLabel xml:lang="en">jitteriness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety">
+        <skos:notation>297</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+        <skos:prefLabel xml:lang="en">anxiety</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>80</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm-ardor">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#eagerness">
+        <skos:notation>41</skos:notation>
+        <skos:prefLabel xml:lang="en">eagerness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>225</skos:notation>
+    <skos:prefLabel xml:lang="en">enthusiasm-ardor</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dander">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+    <skos:prefLabel xml:lang="en">dander</skos:prefLabel>
+    <skos:notation>128</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#awe">
+    <skos:prefLabel xml:lang="en">awe</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wonder">
+        <skos:prefLabel xml:lang="en">wonder</skos:prefLabel>
+        <skos:notation>169</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#astonishment"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>284</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#weight">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#oppression">
+        <skos:prefLabel xml:lang="en">oppression</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
+        <skos:notation>138</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>230</skos:notation>
+    <skos:prefLabel xml:lang="en">weight</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#confidence">
     <skos:prefLabel xml:lang="en">confidence</skos:prefLabel>
@@ -820,520 +739,908 @@
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#security">
         <skos:prefLabel xml:lang="en">security</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fearlessness"/>
+        <skos:notation>155</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:notation>85</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misopedia">
-    <skos:prefLabel xml:lang="en">misopedia</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stewing">
-    <skos:prefLabel xml:lang="en">stewing</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stupefaction">
+    <skos:notation>253</skos:notation>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-agitation">
-        <skos:prefLabel xml:lang="en">negative-agitation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#astonishment">
+        <skos:prefLabel xml:lang="en">astonishment</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#surprise"/>
+        <skos:notation>142</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">stupefaction</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#demoralization">
-    <skos:prefLabel xml:lang="en">demoralization</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dander">
-    <skos:prefLabel xml:lang="en">dander</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#protectiveness">
-    <skos:prefLabel xml:lang="en">protectiveness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#smugness">
-    <skos:prefLabel xml:lang="en">smugness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#complacency">
-        <skos:prefLabel xml:lang="en">complacency</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#commiseration">
-    <skos:prefLabel xml:lang="en">commiseration</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#attachment">
-    <skos:prefLabel xml:lang="en">attachment</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#forgiveness">
-    <skos:prefLabel xml:lang="en">forgiveness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mercifulness">
-        <skos:prefLabel xml:lang="en">mercifulness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#creeps">
-    <skos:prefLabel xml:lang="en">creeps</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#horror">
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>148</skos:notation>
+    <skos:prefLabel xml:lang="en">horror</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#animosity">
-    <skos:prefLabel xml:lang="en">animosity</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#thing">
-    <skos:prefLabel xml:lang="en">thing</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#downheartedness">
-    <skos:prefLabel xml:lang="en">downheartedness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness">
-        <skos:prefLabel xml:lang="en">sadness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hero-worship">
-    <skos:prefLabel xml:lang="en">hero-worship</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#admiration">
-        <skos:prefLabel xml:lang="en">admiration</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disinclination">
+    <skos:prefLabel xml:lang="en">disinclination</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+    <skos:notation>126</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#weepiness">
+    <skos:notation>190</skos:notation>
     <skos:prefLabel xml:lang="en">weepiness</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hopefulness">
-    <skos:prefLabel xml:lang="en">hopefulness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#encouragement">
+    <skos:notation>218</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope">
+        <skos:prefLabel xml:lang="en">positive-hope</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>248</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">encouragement</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#devotion">
-    <skos:prefLabel xml:lang="en">devotion</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heavyheartedness">
+    <skos:notation>62</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy"/>
+    <skos:prefLabel xml:lang="en">heavyheartedness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amorousness">
+    <skos:prefLabel xml:lang="en">amorousness</skos:prefLabel>
+    <skos:notation>109</skos:notation>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misanthropy">
-    <skos:prefLabel xml:lang="en">misanthropy</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#captivation">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+    <skos:prefLabel xml:lang="en">captivation</skos:prefLabel>
+    <skos:notation>53</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amusement">
-    <skos:prefLabel xml:lang="en">amusement</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#angst">
+    <skos:prefLabel xml:lang="en">angst</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:notation>159</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#warpath">
+    <skos:notation>143</skos:notation>
     <skos:prefLabel xml:lang="en">warpath</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#belligerence">
+        <skos:notation>279</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
         <skos:prefLabel xml:lang="en">belligerence</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#helplessness">
-    <skos:prefLabel xml:lang="en">helplessness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#edginess">
-    <skos:prefLabel xml:lang="en">edginess</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#aggression">
-    <skos:prefLabel xml:lang="en">aggression</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ego">
-    <skos:prefLabel xml:lang="en">ego</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#grudge">
-    <skos:prefLabel xml:lang="en">grudge</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment">
-        <skos:prefLabel xml:lang="en">resentment</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#coolness">
-    <skos:prefLabel xml:lang="en">coolness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#vindictiveness">
-    <skos:prefLabel xml:lang="en">vindictiveness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cognitive-state">
-    <skos:prefLabel xml:lang="en">cognitive-state</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mental-state"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fit">
-    <skos:prefLabel xml:lang="en">fit</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bad-temper"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joylessness">
-    <skos:prefLabel xml:lang="en">joylessness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerlessness">
-        <skos:prefLabel xml:lang="en">cheerlessness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cynicism">
-    <skos:prefLabel xml:lang="en">cynicism</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pessimism">
-        <skos:prefLabel xml:lang="en">pessimism</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sulkiness">
     <skos:prefLabel xml:lang="en">sulkiness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misogamy">
-    <skos:prefLabel xml:lang="en">misogamy</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#woe">
-    <skos:prefLabel xml:lang="en">woe</skos:prefLabel>
+    <skos:notation>187</skos:notation>
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mournfulness">
-        <skos:prefLabel xml:lang="en">mournfulness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment">
+        <skos:prefLabel xml:lang="en">resentment</skos:prefLabel>
+        <skos:notation>110</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
       </skos:Concept>
     </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#chagrin">
-    <skos:prefLabel xml:lang="en">chagrin</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dolefulness">
-    <skos:prefLabel xml:lang="en">dolefulness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#edonic-signal">
-    <skos:prefLabel xml:lang="en">edonic-signal</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#signal">
-        <skos:prefLabel xml:lang="en">signal</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malice">
-    <skos:prefLabel xml:lang="en">malice</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tumult">
-    <skos:prefLabel xml:lang="en">tumult</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-agitation"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#conscience">
-    <skos:prefLabel xml:lang="en">conscience</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shame">
-        <skos:prefLabel xml:lang="en">shame</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amorousness">
-    <skos:prefLabel xml:lang="en">amorousness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#infuriation">
-    <skos:prefLabel xml:lang="en">infuriation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-suspense">
-    <skos:prefLabel xml:lang="en">negative-suspense</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#trepidation">
     <skos:prefLabel xml:lang="en">trepidation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension">
+        <skos:prefLabel xml:lang="en">apprehension</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+        <skos:notation>39</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>239</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#attrition">
+    <skos:notation>123</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#regret-sorrow">
+        <skos:prefLabel xml:lang="en">regret-sorrow</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow"/>
+        <skos:notation>251</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">attrition</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#defeatism">
+    <skos:prefLabel xml:lang="en">defeatism</skos:prefLabel>
+    <skos:notation>58</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resignation">
+        <skos:notation>99</skos:notation>
+        <skos:prefLabel xml:lang="en">resignation</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-suspense">
+    <skos:notation>75</skos:notation>
+    <skos:prefLabel xml:lang="en">positive-suspense</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anticipation">
+        <skos:notation>196</skos:notation>
+        <skos:prefLabel xml:lang="en">anticipation</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-expectation"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sanguinity">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#optimism">
+        <skos:prefLabel xml:lang="en">optimism</skos:prefLabel>
+        <skos:notation>103</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">sanguinity</skos:prefLabel>
+    <skos:notation>119</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#scruple">
+    <skos:notation>289</skos:notation>
+    <skos:prefLabel xml:lang="en">scruple</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#rejoicing">
+    <skos:prefLabel xml:lang="en">rejoicing</skos:prefLabel>
+    <skos:notation>153</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malice">
+    <skos:prefLabel xml:lang="en">malice</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence">
+        <skos:notation>13</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+        <skos:prefLabel xml:lang="en">malevolence</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>19</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sinking">
+    <skos:prefLabel xml:lang="en">sinking</skos:prefLabel>
+    <skos:notation>96</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heartburning">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
+    <skos:prefLabel xml:lang="en">heartburning</skos:prefLabel>
+    <skos:notation>77</skos:notation>
+  </skos:Concept>
+  <skos:ConceptScheme rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wn-affect"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#helplessness">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression">
+        <skos:prefLabel xml:lang="en">depression</skos:prefLabel>
+        <skos:notation>93</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>160</skos:notation>
+    <skos:prefLabel xml:lang="en">helplessness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#chagrin">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
+    <skos:notation>290</skos:notation>
+    <skos:prefLabel xml:lang="en">chagrin</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lividity">
+    <skos:prefLabel xml:lang="en">lividity</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fury">
+        <skos:prefLabel xml:lang="en">fury</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+        <skos:notation>44</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>88</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#electricity">
+    <skos:prefLabel xml:lang="en">electricity</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stir">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-agitation"/>
+        <skos:prefLabel xml:lang="en">stir</skos:prefLabel>
+        <skos:notation>136</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>165</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cognitive-affective-state">
+    <skos:notation>107</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mental-state"/>
+    <skos:prefLabel xml:lang="en">cognitive-affective-state</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#unassertiveness">
+    <skos:notation>83</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#diffidence"/>
+    <skos:prefLabel xml:lang="en">unassertiveness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#repugnance">
+    <skos:notation>235</skos:notation>
+    <skos:prefLabel xml:lang="en">repugnance</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disgust">
+        <skos:prefLabel xml:lang="en">disgust</skos:prefLabel>
+        <skos:notation>246</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#edginess">
+    <skos:notation>265</skos:notation>
+    <skos:prefLabel xml:lang="en">edginess</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#commiseration">
+    <skos:prefLabel xml:lang="en">commiseration</skos:prefLabel>
+    <skos:notation>214</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+        <skos:prefLabel xml:lang="en">compassion</skos:prefLabel>
+        <skos:notation>15</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hopefulness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-hope"/>
+    <skos:notation>194</skos:notation>
+    <skos:prefLabel xml:lang="en">hopefulness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hero-worship">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#admiration">
+        <skos:notation>156</skos:notation>
+        <skos:prefLabel xml:lang="en">admiration</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>211</skos:notation>
+    <skos:prefLabel xml:lang="en">hero-worship</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#beneficence">
+    <skos:prefLabel xml:lang="en">beneficence</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#benevolence">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+        <skos:notation>255</skos:notation>
+        <skos:prefLabel xml:lang="en">benevolence</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>242</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#playfulness">
+    <skos:prefLabel xml:lang="en">playfulness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#levity">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:prefLabel xml:lang="en">levity</skos:prefLabel>
+        <skos:notation>52</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>262</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shamefacedness">
+    <skos:prefLabel xml:lang="en">shamefacedness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
+    <skos:notation>12</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#comfortableness">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#belonging">
+        <skos:prefLabel xml:lang="en">belonging</skos:prefLabel>
+        <skos:notation>266</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>200</skos:notation>
+    <skos:prefLabel xml:lang="en">comfortableness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misology">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+    <skos:prefLabel xml:lang="en">misology</skos:prefLabel>
+    <skos:notation>212</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#distance">
+    <skos:prefLabel xml:lang="en">distance</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indifference">
+        <skos:prefLabel xml:lang="en">indifference</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-unconcern"/>
+        <skos:notation>220</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>18</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pique">
+    <skos:prefLabel xml:lang="en">pique</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
+    <skos:notation>46</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misogyny">
+    <skos:prefLabel xml:lang="en">misogyny</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+    <skos:notation>283</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#maleficence">
+    <skos:notation>238</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence"/>
+    <skos:prefLabel xml:lang="en">maleficence</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#warmheartedness">
+    <skos:prefLabel xml:lang="en">warmheartedness</skos:prefLabel>
+    <skos:notation>51</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lovingness">
+        <skos:prefLabel xml:lang="en">lovingness</skos:prefLabel>
+        <skos:notation>86</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#solicitude">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:prefLabel xml:lang="en">solicitude</skos:prefLabel>
+    <skos:notation>176</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#nausea">
+    <skos:notation>282</skos:notation>
+    <skos:prefLabel xml:lang="en">nausea</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disgust"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#behaviour">
+    <skos:prefLabel xml:lang="en">behaviour</skos:prefLabel>
+    <skos:notation>9</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#frustration">
+    <skos:notation>79</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
+    <skos:prefLabel xml:lang="en">frustration</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#discomfiture">
+    <skos:prefLabel xml:lang="en">discomfiture</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
+    <skos:notation>25</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#triumph">
+    <skos:notation>111</skos:notation>
+    <skos:prefLabel xml:lang="en">triumph</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exultation">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+        <skos:notation>134</skos:notation>
+        <skos:prefLabel xml:lang="en">exultation</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#thing">
+    <skos:notation>216</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+        <skos:prefLabel xml:lang="en">ambiguous-emotion</skos:prefLabel>
+        <skos:notation>104</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">thing</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#conscience">
+    <skos:prefLabel xml:lang="en">conscience</skos:prefLabel>
+    <skos:notation>114</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shame">
+        <skos:notation>250</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+        <skos:prefLabel xml:lang="en">shame</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair-intimidation">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#discouragement">
+        <skos:notation>302</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
+        <skos:prefLabel xml:lang="en">discouragement</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>1</skos:notation>
+    <skos:prefLabel xml:lang="en">despair-intimidation</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pensiveness">
+    <skos:notation>306</skos:notation>
+    <skos:prefLabel xml:lang="en">pensiveness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#impatience">
+    <skos:notation>188</skos:notation>
     <skos:prefLabel xml:lang="en">impatience</skos:prefLabel>
     <skos:broaderTransitive>
       <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fidget">
         <skos:prefLabel xml:lang="en">fidget</skos:prefLabel>
         <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-agitation"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heavyheartedness">
-    <skos:prefLabel xml:lang="en">heavyheartedness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heartburning">
-    <skos:prefLabel xml:lang="en">heartburning</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#awe">
-    <skos:prefLabel xml:lang="en">awe</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wonder">
-        <skos:prefLabel xml:lang="en">wonder</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#astonishment"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-concern">
-    <skos:prefLabel xml:lang="en">negative-concern</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:ConceptScheme rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wn-affect"/>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misology">
-    <skos:prefLabel xml:lang="en">misology</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#umbrage">
-    <skos:prefLabel xml:lang="en">umbrage</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jealousy">
-    <skos:prefLabel xml:lang="en">jealousy</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#envy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bang">
-    <skos:prefLabel xml:lang="en">bang</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exhilaration"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair-intimidation">
-    <skos:prefLabel xml:lang="en">despair-intimidation</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#discouragement">
-        <skos:prefLabel xml:lang="en">discouragement</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fulfillment">
-    <skos:prefLabel xml:lang="en">fulfillment</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shyness">
-    <skos:prefLabel xml:lang="en">shyness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#timidity">
-        <skos:prefLabel xml:lang="en">timidity</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#aggravation">
-    <skos:prefLabel xml:lang="en">aggravation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#angst">
-    <skos:prefLabel xml:lang="en">angst</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#distance">
-    <skos:prefLabel xml:lang="en">distance</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indifference"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shamefacedness">
-    <skos:prefLabel xml:lang="en">shamefacedness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#embarrassment"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hopelessness">
-    <skos:prefLabel xml:lang="en">hopelessness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair">
-        <skos:prefLabel xml:lang="en">despair</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#buck-fever">
-    <skos:prefLabel xml:lang="en">buck-fever</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fever">
-        <skos:prefLabel xml:lang="en">fever</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-expectation"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiousness">
-    <skos:prefLabel xml:lang="en">anxiousness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#rejoicing">
-    <skos:prefLabel xml:lang="en">rejoicing</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misery">
-    <skos:prefLabel xml:lang="en">misery</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#behaviour">
-    <skos:prefLabel xml:lang="en">behaviour</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#harassment">
-    <skos:prefLabel xml:lang="en">harassment</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#horror">
-    <skos:prefLabel xml:lang="en">horror</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#earnestness">
-    <skos:prefLabel xml:lang="en">earnestness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gravity">
-        <skos:prefLabel xml:lang="en">gravity</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+        <skos:notation>70</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#forlornness">
     <skos:prefLabel xml:lang="en">forlornness</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#antipathy">
-    <skos:prefLabel xml:lang="en">antipathy</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#scruple">
-    <skos:prefLabel xml:lang="en">scruple</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#attrition">
-    <skos:prefLabel xml:lang="en">attrition</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#regret-sorrow">
-        <skos:prefLabel xml:lang="en">regret-sorrow</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gusto">
-    <skos:prefLabel xml:lang="en">gusto</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#enthusiasm">
-        <skos:prefLabel xml:lang="en">enthusiasm</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cruelty">
-    <skos:prefLabel xml:lang="en">cruelty</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heartlessness">
-        <skos:prefLabel xml:lang="en">heartlessness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-unconcern"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#plaintiveness">
-    <skos:prefLabel xml:lang="en">plaintiveness</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mournfulness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion-eliciting-situation">
-    <skos:prefLabel xml:lang="en">emotion-eliciting-situation</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#situation">
-        <skos:prefLabel xml:lang="en">situation</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#favor">
-    <skos:prefLabel xml:lang="en">favor</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#approval">
-        <skos:prefLabel xml:lang="en">approval</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#weight">
-    <skos:prefLabel xml:lang="en">weight</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#oppression">
-        <skos:prefLabel xml:lang="en">oppression</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#weakness">
-    <skos:prefLabel xml:lang="en">weakness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#preference">
-        <skos:prefLabel xml:lang="en">preference</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#liking"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#brotherhood">
-    <skos:prefLabel xml:lang="en">brotherhood</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#friendliness"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#warmheartedness">
-    <skos:prefLabel xml:lang="en">warmheartedness</skos:prefLabel>
-    <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lovingness">
-        <skos:prefLabel xml:lang="en">lovingness</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
-      </skos:Concept>
-    </skos:broaderTransitive>
+    <skos:notation>139</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-disgust">
     <skos:prefLabel xml:lang="en">self-disgust</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shame"/>
+    <skos:notation>249</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-unconcern">
-    <skos:prefLabel xml:lang="en">neutral-unconcern</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#abhorrence">
+    <skos:prefLabel xml:lang="en">abhorrence</skos:prefLabel>
+    <skos:notation>30</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#chill">
+    <skos:notation>269</skos:notation>
+    <skos:prefLabel xml:lang="en">chill</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hysteria">
+    <skos:prefLabel xml:lang="en">hysteria</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>162</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#distress">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:prefLabel xml:lang="en">distress</skos:prefLabel>
+    <skos:notation>67</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#worship">
+    <skos:prefLabel xml:lang="en">worship</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+    <skos:notation>74</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#vindictiveness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#malevolence"/>
+    <skos:notation>293</skos:notation>
+    <skos:prefLabel xml:lang="en">vindictiveness</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#grudge">
+    <skos:notation>237</skos:notation>
+    <skos:prefLabel xml:lang="en">grudge</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#resentment"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#stewing">
+    <skos:prefLabel xml:lang="en">stewing</skos:prefLabel>
+    <skos:notation>82</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-agitation"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion-eliciting-situation">
     <skos:broaderTransitive>
-      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-emotion">
-        <skos:prefLabel xml:lang="en">neutral-emotion</skos:prefLabel>
-        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#situation">
+        <skos:prefLabel xml:lang="en">situation</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+        <skos:notation>233</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">emotion-eliciting-situation</skos:prefLabel>
+    <skos:notation>130</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dysphoria">
+    <skos:prefLabel xml:lang="en">dysphoria</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
+    <skos:notation>84</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cynicism">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#pessimism">
+        <skos:prefLabel xml:lang="en">pessimism</skos:prefLabel>
+        <skos:notation>195</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">cynicism</skos:prefLabel>
+    <skos:notation>91</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#antipathy">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+    <skos:prefLabel xml:lang="en">antipathy</skos:prefLabel>
+    <skos:notation>163</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#animosity">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
+    <skos:notation>151</skos:notation>
+    <skos:prefLabel xml:lang="en">animosity</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#world-weariness">
+    <skos:prefLabel xml:lang="en">world-weariness</skos:prefLabel>
+    <skos:notation>24</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#melancholy"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#euphoria">
+    <skos:prefLabel xml:lang="en">euphoria</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#elation">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+        <skos:prefLabel xml:lang="en">elation</skos:prefLabel>
+        <skos:notation>185</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>206</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#jocundity">
+    <skos:prefLabel xml:lang="en">jocundity</skos:prefLabel>
+    <skos:notation>294</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#merriment"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gloat">
+    <skos:notation>95</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
+    <skos:prefLabel xml:lang="en">gloat</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dolor">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#grief">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#lost-sorrow"/>
+        <skos:prefLabel xml:lang="en">grief</skos:prefLabel>
+        <skos:notation>147</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">dolor</skos:prefLabel>
+    <skos:notation>150</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#demoralization">
+    <skos:notation>271</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#depression"/>
+    <skos:prefLabel xml:lang="en">demoralization</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#protectiveness">
+    <skos:prefLabel xml:lang="en">protectiveness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
+    <skos:notation>141</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-suspense">
+    <skos:prefLabel xml:lang="en">negative-suspense</skos:prefLabel>
+    <skos:notation>71</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apprehension"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#irascibility">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bad-temper">
+        <skos:prefLabel xml:lang="en">bad-temper</skos:prefLabel>
+        <skos:notation>31</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>10</skos:notation>
+    <skos:prefLabel xml:lang="en">irascibility</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#shyness">
+    <skos:prefLabel xml:lang="en">shyness</skos:prefLabel>
+    <skos:notation>116</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#timidity">
+        <skos:prefLabel xml:lang="en">timidity</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+        <skos:notation>98</skos:notation>
       </skos:Concept>
     </skos:broaderTransitive>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow">
-    <skos:prefLabel xml:lang="en">sorrow</skos:prefLabel>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#loyalty">
+    <skos:notation>32</skos:notation>
+    <skos:prefLabel xml:lang="en">loyalty</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#alarm">
+    <skos:notation>28</skos:notation>
+    <skos:prefLabel xml:lang="en">alarm</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-languor">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#easiness">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tranquillity"/>
+        <skos:prefLabel xml:lang="en">easiness</skos:prefLabel>
+        <skos:notation>243</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">positive-languor</skos:prefLabel>
+    <skos:notation>154</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#woe">
+    <skos:prefLabel xml:lang="en">woe</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#mournfulness"/>
+    <skos:notation>131</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#covetousness">
+    <skos:prefLabel xml:lang="en">covetousness</skos:prefLabel>
+    <skos:notation>298</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#envy"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cruelty">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#heartlessness">
+        <skos:prefLabel xml:lang="en">heartlessness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-unconcern"/>
+        <skos:notation>47</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">cruelty</skos:prefLabel>
+    <skos:notation>37</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#insecurity">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:notation>207</skos:notation>
+    <skos:prefLabel xml:lang="en">insecurity</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiousness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:prefLabel xml:lang="en">anxiousness</skos:prefLabel>
+    <skos:notation>14</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#umbrage">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anger"/>
+    <skos:prefLabel xml:lang="en">umbrage</skos:prefLabel>
+    <skos:notation>295</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#creeps">
+    <skos:prefLabel xml:lang="en">creeps</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>291</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#togetherness">
+    <skos:prefLabel xml:lang="en">togetherness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#closeness">
+        <skos:prefLabel xml:lang="en">closeness</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#belonging"/>
+        <skos:notation>40</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>121</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#edonic-signal">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#signal">
+        <skos:prefLabel xml:lang="en">signal</skos:prefLabel>
+        <skos:notation>201</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#root"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:prefLabel xml:lang="en">edonic-signal</skos:prefLabel>
+    <skos:notation>189</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#earnestness">
+    <skos:prefLabel xml:lang="en">earnestness</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#gravity">
+        <skos:notation>286</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+        <skos:prefLabel xml:lang="en">gravity</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>60</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ego">
+    <skos:prefLabel xml:lang="en">ego</skos:prefLabel>
+    <skos:notation>97</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#brotherhood">
+    <skos:prefLabel xml:lang="en">brotherhood</skos:prefLabel>
+    <skos:notation>20</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#friendliness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#puppy-love">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#love"/>
+    <skos:notation>261</skos:notation>
+    <skos:prefLabel xml:lang="en">puppy-love</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#good-will">
+    <skos:prefLabel xml:lang="en">good-will</skos:prefLabel>
+    <skos:notation>144</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#friendliness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#placidity">
+    <skos:prefLabel xml:lang="en">placidity</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+        <skos:notation>125</skos:notation>
+        <skos:prefLabel xml:lang="en">calmness</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>205</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-hope">
+    <skos:prefLabel xml:lang="en">ambiguous-hope</skos:prefLabel>
+    <skos:notation>157</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-expectation">
+        <skos:notation>198</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+        <skos:prefLabel xml:lang="en">ambiguous-expectation</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#panic">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
+    <skos:notation>26</skos:notation>
+    <skos:prefLabel xml:lang="en">panic</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#amour-propre">
+    <skos:notation>231</skos:notation>
+    <skos:prefLabel xml:lang="en">amour-propre</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#self-pride"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#misery">
+    <skos:notation>234</skos:notation>
+    <skos:prefLabel xml:lang="en">misery</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion">
-    <skos:prefLabel xml:lang="en">emotion</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affective-state"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#meekness">
+    <skos:prefLabel xml:lang="en">meekness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#humility"/>
+    <skos:notation>219</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion">
-    <skos:prefLabel xml:lang="en">positive-emotion</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despisal">
+    <skos:prefLabel xml:lang="en">despisal</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hate"/>
+    <skos:notation>124</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-concern">
+    <skos:prefLabel xml:lang="en">negative-concern</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#anxiety"/>
+    <skos:notation>135</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-languor">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#apathy"/>
+    <skos:prefLabel xml:lang="en">neutral-languor</skos:prefLabel>
+    <skos:notation>166</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#harassment">
+    <skos:notation>55</skos:notation>
+    <skos:prefLabel xml:lang="en">harassment</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#annoyance"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hopelessness">
+    <skos:prefLabel xml:lang="en">hopelessness</skos:prefLabel>
+    <skos:notation>213</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#despair">
+        <skos:prefLabel xml:lang="en">despair</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+        <skos:notation>129</skos:notation>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#peace">
+    <skos:prefLabel xml:lang="en">peace</skos:prefLabel>
+    <skos:notation>7</skos:notation>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tranquillity">
+        <skos:prefLabel xml:lang="en">tranquillity</skos:prefLabel>
+        <skos:notation>170</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#disapproval">
+    <skos:prefLabel xml:lang="en">disapproval</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#dislike"/>
+    <skos:notation>186</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#tenderness">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#compassion"/>
+    <skos:prefLabel xml:lang="en">tenderness</skos:prefLabel>
+    <skos:notation>182</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fulfillment">
+    <skos:notation>146</skos:notation>
+    <skos:prefLabel xml:lang="en">fulfillment</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#satisfaction"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#carefreeness">
+    <skos:prefLabel xml:lang="en">carefreeness</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#cheerfulness"/>
+    <skos:notation>223</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#withdrawal">
+    <skos:prefLabel xml:lang="en">withdrawal</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#indifference"/>
+    <skos:notation>5</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#wrath">
+    <skos:prefLabel xml:lang="en">wrath</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fury"/>
+    <skos:notation>87</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#attachment">
+    <skos:prefLabel xml:lang="en">attachment</skos:prefLabel>
+    <skos:notation>241</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affection"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#coolness">
+    <skos:prefLabel xml:lang="en">coolness</skos:prefLabel>
+    <skos:notation>183</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#calmness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#antagonism">
+    <skos:notation>244</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#hostility"/>
+    <skos:prefLabel xml:lang="en">antagonism</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#exuberance">
+    <skos:prefLabel xml:lang="en">exuberance</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
+    <skos:notation>287</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fit">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#bad-temper"/>
+    <skos:prefLabel xml:lang="en">fit</skos:prefLabel>
+    <skos:notation>167</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ingratitude">
+    <skos:prefLabel xml:lang="en">ingratitude</skos:prefLabel>
+    <skos:notation>300</skos:notation>
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-unconcern">
+    <skos:notation>267</skos:notation>
     <skos:prefLabel xml:lang="en">negative-unconcern</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-fear"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-expectation">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion">
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+        <skos:notation>228</skos:notation>
+        <skos:prefLabel xml:lang="en">positive-emotion</skos:prefLabel>
+      </skos:Concept>
+    </skos:broaderTransitive>
     <skos:prefLabel xml:lang="en">positive-expectation</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+    <skos:notation>272</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#general-dislike">
     <skos:prefLabel xml:lang="en">general-dislike</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#negative-emotion"/>
+    <skos:notation>164</skos:notation>
   </skos:Concept>
-  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#surprise">
-    <skos:prefLabel xml:lang="en">surprise</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#affective-state"/>
+    <skos:prefLabel xml:lang="en">emotion</skos:prefLabel>
+    <skos:notation>69</skos:notation>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#contentment">
+    <skos:notation>274</skos:notation>
     <skos:prefLabel xml:lang="en">contentment</skos:prefLabel>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#joy"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#fearlessness">
     <skos:prefLabel xml:lang="en">fearlessness</skos:prefLabel>
+    <skos:notation>145</skos:notation>
     <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#positive-emotion"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#surprise">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#ambiguous-emotion"/>
+    <skos:prefLabel xml:lang="en">surprise</skos:prefLabel>
+    <skos:notation>115</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-unconcern">
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#neutral-emotion">
+        <skos:prefLabel xml:lang="en">neutral-emotion</skos:prefLabel>
+        <skos:notation>171</skos:notation>
+        <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#emotion"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <skos:notation>275</skos:notation>
+    <skos:prefLabel xml:lang="en">neutral-unconcern</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sorrow">
+    <skos:broaderTransitive rdf:resource="http://gsi.dit.upm.es/ontologies/wnaffect/ns#sadness"/>
+    <skos:prefLabel xml:lang="en">sorrow</skos:prefLabel>
+    <skos:notation>81</skos:notation>
   </skos:Concept>
 </rdf:RDF>
