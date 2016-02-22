@@ -1,0 +1,115 @@
+/* Style for E-Business and Web Science Research Group */
+
+body {
+
+padding: 1em 4em 1em 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: black;
+  background: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+    position: relative;
+    width: 974px;
+    margin: 0 auto;
+    background: white;
+    text-align: left;
+    z-index: 10;
+    padding: 1px 40px 10px 40px;
+}
+
+.img {
+ font-size: 90%;
+ text-align: center;
+}
+
+.example {
+	border: 1px dotted black;
+    background-color: #D9E3E9;
+    padding: 5px;
+}
+
+.specterm {
+/*	margin-top: 12px;
+	padding-top: 6px;
+	padding-bottom: 16px; */
+	border-bottom: 1px solid #aaa;
+}
+
+.backtop {
+	float: right;
+	margin: -10px 0 0 0;
+	font-size: 80%;
+	padding: 0 6px 0 6px;
+	background-color: #FFF;
+}
+
+.prop_datatype:before {
+content:url(img/datatype_ico.gif);
+}
+
+.prop_datatype img {
+float: left;
+}
+
+.prop_object:before {
+content:url(img/object_ico.gif);
+}
+
+.prop_annotation:before {
+content:url(img/annotation_ico.gif);
+}
+
+strong a:link, strong a:visited, strong a:active { color:black; text-decoration:none; }
+.comment a:link, .comment a:visited, .comment a:active { color:black; text-decoration:none; }
+.comment_p1 a:link, .comment_p1 a:visited, .comment_p1 a:active { color:black; text-decoration:none; }
+strong a:hover, .comment_p1 a:hover, .comment a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 { text-align: left }
+
+h1, h2, h3, h4, h5, h6 { color: #005A9C; font-weight: normal; }
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
+h4 { font-size: 100%; font-weight: bold; }
+h5 { font-size: 85%; font-weight: bold; }
+h6 { font-size: 75%; font-weight: bold; }
+
+h1, h2, h3, h4, h5, h6 {
+	border-bottom: 0px solid #aaa;
+}
+
+.prefix_table_cell {
+border-bottom: 1px solid #E1D7D7;
+}
+
+#logo {
+ border: 0pt none ;
+ float: right;
+ padding: 10px;
+ width: 250px;
+}
+
+#logo_gsi {
+ border: 0pt none ;
+ height: 100px;
+ padding-top: 10px;
+}
+
+#logo_fbk {
+ border: 0pt none ;
+ float: right;
+ padding: 10px;
+ height: 100px;
+ padding-top: 10px;
+}
+.wideimg {
+    width: 100%;
+}
+
+#eurologo {
+    width: 100px;
+}

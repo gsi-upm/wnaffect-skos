@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html 
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mvcb="http://webns.net/mvcb/"
+  xml:lang="en"
+> 
+
+  <head>
+    <title>WN-Affect Taxonomy Specification</title>
+    <meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
+    <link rel="mvcb:generatorAgent" type="application/rdf+xml" title="DOAP" href="http://rdfohloh.wikier.org/project/specgen" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <script type="text/javascript" src="js/d3.v2.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/index.css"></head><body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  <body>
+    <div id="wrapper">
+
+	<a href="http://gsi.dit.upm.es/"><img id="logo_gsi" src="img/gsi_logo.png" alt="Grupo de Sistemas Ingeligentes"/></a> 
+	<a href="http://www.fbk.eu/"><img id="logo_fbk" src="img/logo_fbk.jpg" alt="Fondazione Bruno Kessler"/></a> 
+
+    <h1 id="title">WordNet-Affect Taxonomy - SKOS version<h1>
+    <h3 id="mymw-doctype">V1.0 - 22 May 2013</h3>
+    <dl>
+    <table border="0">
+    <tr>
+        <td>
+            <b>This version:</b>
+        </td>
+        <td>
+            <a href="http://gsi.dit.upm.es/ontologies/wnaffect">http://gsi.dit.upm.es/ontologies/wnaffect</a> (<a href="ns">RDF/XML</a>)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Previous version:</b>
+        </td>
+        <td>
+            <a href="http://wndomains.fbk.eu/wnaffect.html">WN-Affect 1.1 by FBK</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Editors:</b>
+        </td>
+        <td>
+            <a href="http://gsi.dit.upm.es/index.php?option=com_jresearch&view=member&task=show&id=2&Itemid=193">J. Fernando Sánchez-Rada</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Authors:</b>
+        </td>
+        <td>
+            <a href="http://hlt.fbk.eu/people/strapparava">Carlo Strapparava</a>
+            <a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/alessandro-valitutti(96a215f5-b833-4d44-92db-ad2ae573eef3).html">Alessandro Valitutti</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Contributors:</b>
+        </td>
+        <td>
+            See <a href="#acknowledgements">acknowledgements</a>
+        </td>
+    </tr>
+    </table>
+    
+    <p>
+    <a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border: 0pt none ; float: right; padding: 10px;" src="img/cc_licence.png" /></a> 
+    </p>    
+    <p class="copyright">This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>. This copyright applies to the WordNet-Affect Taxonomy Specification and accompanying documentation in RDF. This ontology uses W3C's <a href="http://www.w3.org/RDF/">RDF</a> technology, an open Web standard that can be freely used by anyone.</p>
+
+    <!-- ===================================================================== -->
+    <hr/>
+    <h2 id="abstract">Abstract</h2>
+    WordNet-Affect is an extension of <a href="http://wndomains.fbk.eu">WordNet Domains</a>. It includes a subset of synsets suitable to represent affective concepts correlated with affective word. This SKOS taxonomy mirrors the categories in WordNet-Affect and provides a semantic representation using the standard SKOS representation.
+    <p>
+
+    <hr/>
+  
+    <h2 id="contents">Table of Contents</h2>
+    <ol id="toc">
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#SKOS">SKOS</a></li>
+        <li>
+        <a href="#overview">WordNet-Affect Taxonomy Overview</a>
+        </li>
+    </ol>
+
+    <hr/>
+
+    <h2 id="intro">1 Introduction</h2>
+    <p>
+    WordNet-Affect is useful to link synsets in the original Princeton Wordnet to affects. Only by using WordNet-Affect together with the existing information in WordNet, we get a really powerful tool to represent affects behind natural language. Moreover, developers can use that knowledge to extract affects from user-generated content, thus giving the first step to affect-aware systems.
+    </p>
+    <p>
+    However, WordNet-Affect is exclusively focused on providing extra information to WordNet's synsets. It would be interesting to be able to use the concepts it contains to other fields, and to be able to reason with these concepts, link them between applications and relate them to the concepts already existing in other ontologies and taxonomies. In other words: it is necessary to bring the knowledge behind WordNet-Affect to the current Semantic reality. One example of the application of WordNet-Affect beyond its initial purpose is representing Emotions annotated following the <a href="http://gsi.dit.upm.es/ontologies/onyx">Onyx</a> Ontology.
+    </p>
+    This SKOS representation is the first step to this conversion. With it, WordNet-Affect concepts can be used in any RDF graph, for any application from comment tagging to linking affect information to terms (e.g., using the <a href=http://lemon-model.net/">Lemon Model</a>). The current efforts to represent WordNet-aligned information in a semantic format using the Lemon Model for <a href="http://eurosentiment.eu">EUROSENTIMENT</a> can be then used to translate the relation of synsets and affects.
+    <p>
+    </p>
+    <h2 id="SKOS">2. SKOS </h2>
+
+    <p>
+    <a href="http://www.w3.org/2004/02/skos/">SKOS</a> or Simple Knowledge Organization System, is a <a href="http://www.w3.org">W3C</a>'s standard that serves as a bridging representation model between the chaotically heterogeneous traditional data models for taxonomies and the extremely formal languages used in the Semantic Web, like the <a href="http://www.w3.org/TR/owl-features/">Web Ontology Language (OWL)</a>. As such, it is perfect for tasks like translating WordNet-Affect.
+    </p>
+    <p>
+    For more information about SKOS and simple steps to get started with it, please visit the excellent documentation at the <a href="http://www.w3.org/TR/skos-primer/">SKOS primer</a>.
+    </p>
+    <h2 id="overview">3. WordNet-Affect Taxonomy Overview</h2>
+    <p>
+    The WordNet-Affect taxonomy has more than 200 concepts linked by concept-superconcept relationships. Giving a full description of all these concepts is impractical. However, we present the following browsable tree in which the different relations between concepts are shown visually. 
+    </p>
+    <p>The full navigable tree: <a href="fulltree.html">Full WordNet-Affect Taxonomy</a></p>
+    <p>In svg format: <a href="img/wnaffect.svg">Full WordNet-Affect Taxonomy (SVG)</a></p>
+    
+    <div class="img"> 
+    <div id="chart"></div>
+	<script type="text/javascript" src="js/dtree.js"></script>
+				<a href="fulltree.html" target="_blank">Click here to open the complete taxonomy in a separate window</a> 
+    </div>
+
+    <h2 id="changes">A Changelog</h2>
+
+    <h3 id="sec-changes20130510">2013-05-22</h3>
+    <ul>
+      <li>First version of the document</li> 
+    </ul>
+
+    <h2><a id="acknowledgements"></a>B Acknowledgements</h2>
+
+    <p>
+        Special thanks for support with the taxonomy translation to: Prof. Carlos A. Iglesias and members of the GSI Group of DIT department of Universidad Polit&#233;cnica de Madrid.
+    </p>
+
+    <p>This taxonomy has been translated for its use in the <a href="http://eurosentiment.eu">EUROSENTIMENT Project<a/><a href="http://eurosentiment.eu"><img id="eurologo" src="img/eurosentiment_logo.png"/></a></p>  
+    </div>
+  </body>
+</html>
