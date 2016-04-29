@@ -1,4 +1,4 @@
-![GSI Logo](http://gsi.dit.upm.es/templates/jgsi/images/logo.png)
+![GSI Logo](http://vps161.cesvima.upm.es/images/stories/logos/gsi.png)
 [WordNet-Affect to SKOS conversion](http://www.gsi.dit.upm.es/ontologies/wnaffect/) 
 ==================================
 
